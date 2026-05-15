@@ -13,7 +13,7 @@ def cadastro_produto(produtos)
     preco = gets.to_f
   
     mensagem("Quanto tem em estoque?")
-    quantidade = gets.chomp.to_i
+    quantidade = gets.to_i
  
     limpar_tela
 

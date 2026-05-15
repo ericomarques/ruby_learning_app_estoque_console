@@ -12,4 +12,8 @@ def listar_produtos(produtos)
   end
 
   puts table
+
+  mensagem("Digite enter para continuar")
+  gets
+  limpar_tela
 end

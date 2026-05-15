@@ -2,6 +2,7 @@ require_relative "display/menu"
 require_relative "display/operacoes_de_tela"
 require_relative "core/cadastro_produto"
 require_relative "core/listar_produto"
+require_relative "core/retirada_estoque"
 
 produtos = [
   { id: 1, nome: "Arroz", descricao: "Pacote de arroz branco 5kg", preco: 24.90, quantidade: 10 },

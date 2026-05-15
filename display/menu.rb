@@ -15,7 +15,7 @@ def iniciar_menu(produtos=[])
     when 2
       listar_produtos(produtos)
     when 3
-      mensagem("Retirada do estoque", cor: :verde, has_timer: true, timer: 2, clean_screen: true)
+      retirada_estoque(produtos)
     when 4
       mensagem("Saindo. Até a próxima", cor: :verde, has_timer: true, timer: 2, clean_screen: true)
       exit
