@@ -30,4 +30,10 @@ class JsonRepositorio
       file.puts JSON.pretty_generate(data)
     end
   end
+
+  def self.gravar(arquivo, array)
+    File.open(arquivo, 'w') do |file|
+      file.puts JSON.pretty_generate(array)
+    end
+  end
 end

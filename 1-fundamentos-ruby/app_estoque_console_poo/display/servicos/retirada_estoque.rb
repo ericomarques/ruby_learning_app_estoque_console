@@ -87,6 +87,7 @@ def retirada_estoque()
 
     else
       produto_encontrado.quantidade -= retirada
+      ProdutoServico.atualizar(produto_encontrado)
 
       mensagem(
         "Retirada realizada com sucesso, saldo atual:",

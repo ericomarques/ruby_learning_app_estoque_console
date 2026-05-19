@@ -21,6 +21,18 @@ class ProdutoServico # unit of work
     JsonRepositorio.adicionar(@arquivo, produto_hash)
   end
 
+
+  def self.atualizar(produto)
+    dados = JsonRepositorio.ler(@arquivo)
+    produto_hash = dados.find {|dado| dado["id"] == produto.id}
+    produto_hash["nome"] = produto.nome
+    produto_hash["decricao"] = produto.descricao
+    produto_hash["preco"] = produto.preco
+    produto_hash["quantidade"] = produto.quantidade
+
+    JsonRepositorio.gravar(@arquivo, produto_hash)
+  end
+
   private
   def transformar_para_hash(produto)
     produto.instance_variables.each_with_object({}) do |var, hash|
