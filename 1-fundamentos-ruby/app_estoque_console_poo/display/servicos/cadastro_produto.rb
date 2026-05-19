@@ -31,11 +31,11 @@ def cadastro_produto()
     when "S"
       ProdutoServico.adicionar(
         Produto.new({
-          id: Time.now.to_i,
-          nome: nome,
-          descricao: descricao,
-          quantidade: quantidade,
-          preco: preco
+          "id" => Time.now.to_i,
+          "nome" => nome,
+          "descricao" => descricao,
+          "quantidade" => quantidade,
+          "preco" => preco
         }))
       break
     when "N"

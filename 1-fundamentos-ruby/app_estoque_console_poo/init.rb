@@ -4,9 +4,9 @@ require_relative "display/servicos/cadastro_produto"
 require_relative "display/servicos/listar_produto"
 require_relative "display/servicos/retirada_estoque"
 
-
 require_relative "dominio/entidades/produto"
 require_relative "dominio/servicos/produto_servico"
+require_relative "infraestrutura/json_repositorio"
 
 ProdutoServico.adicionar(Produto.new({ id: 1, nome: "Arroz", descricao: "Pacote de arroz branco 5kg", preco: 24.90, quantidade: 10 }))
 ProdutoServico.adicionar(Produto.new({ id: 2, nome: "Feijão", descricao: "Pacote de feijão carioca 1kg", preco: 8.50, quantidade: 15 }))
