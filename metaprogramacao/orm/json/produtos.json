@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "nome": "Notebook Pro 14",
+    "descricao": "Notebook de 14 polegadas com SSD de 512 GB e 16 GB de RAM.",
+    "preco": 4899.9,
+    "estoque": 12,
+    "fornecedor_id": 1
+  },
+  {
+    "id": 2,
+    "nome": "Mouse Sem Fio",
+    "descricao": "Mouse óptico sem fio com receptor USB e design ergonômico.",
+    "preco": 89.9,
+    "estoque": 85,
+    "fornecedor_id": 1
+  },
+  {
+    "id": 3,
+    "nome": "Teclado Mecânico",
+    "descricao": "Teclado mecânico ABNT2 com iluminação LED.",
+    "preco": 249.9,
+    "estoque": 34,
+    "fornecedor_id": 1
+  },
+  {
+    "id": 4,
+    "nome": "Monitor LED 24",
+    "descricao": "Monitor LED Full HD de 24 polegadas com entrada HDMI.",
+    "preco": 799.9,
+    "estoque": 18,
+    "fornecedor_id": 1
+  },
+  {
+    "id": 5,
+    "nome": "Cadeira Escritório",
+    "descricao": "Cadeira giratória com regulagem de altura e apoio lombar.",
+    "preco": 599.9,
+    "estoque": 20,
+    "fornecedor_id": 3
+  },
+  {
+    "id": 6,
+    "nome": "Mesa de Trabalho",
+    "descricao": "Mesa retangular para escritório com tampo em MDP.",
+    "preco": 449.9,
+    "estoque": 15,
+    "fornecedor_id": 3
+  },
+  {
+    "id": 7,
+    "nome": "Papel A4 500 folhas",
+    "descricao": "Resma de papel sulfite A4 branco com 500 folhas.",
+    "preco": 32.9,
+    "estoque": 150,
+    "fornecedor_id": 3
+  },
+  {
+    "id": 8,
+    "nome": "Caneta Esferográfica Azul",
+    "descricao": "Caixa com 50 canetas esferográficas azuis.",
+    "preco": 54.9,
+    "estoque": 60,
+    "fornecedor_id": 3
+  },
+  {
+    "id": 9,
+    "nome": "Arroz Tipo 1 5kg",
+    "descricao": "Pacote de arroz branco tipo 1 com 5 kg.",
+    "preco": 27.9,
+    "estoque": 110,
+    "fornecedor_id": 4
+  },
+  {
+    "id": 10,
+    "nome": "Feijão Carioca 1kg",
+    "descricao": "Pacote de feijão carioca selecionado com 1 kg.",
+    "preco": 8.9,
+    "estoque": 95,
+    "fornecedor_id": 4
+  },
+  {
+    "id": 11,
+    "nome": "Café Torrado 500g",
+    "descricao": "Café torrado e moído tradicional em pacote de 500 g.",
+    "preco": 18.9,
+    "estoque": 70,
+    "fornecedor_id": 4
+  },
+  {
+    "id": 12,
+    "nome": "Açúcar Refinado 1kg",
+    "descricao": "Pacote de açúcar refinado branco com 1 kg.",
+    "preco": 5.49,
+    "estoque": 130,
+    "fornecedor_id": 4
+  },
+  {
+    "id": 13,
+    "nome": "Camiseta Básica",
+    "descricao": "Camiseta de algodão unissex em cores variadas.",
+    "preco": 39.9,
+    "estoque": 100,
+    "fornecedor_id": 5
+  },
+  {
+    "id": 14,
+    "nome": "Calça Jeans",
+    "descricao": "Calça jeans masculina com corte reto.",
+    "preco": 149.9,
+    "estoque": 42,
+    "fornecedor_id": 5
+  },
+  {
+    "id": 15,
+    "nome": "Jaqueta Corta-Vento",
+    "descricao": "Jaqueta leve com tecido resistente à água.",
+    "preco": 199.9,
+    "estoque": 25,
+    "fornecedor_id": 5
+  },
+  {
+    "id": 16,
+    "nome": "Tênis Casual",
+    "descricao": "Tênis casual com solado emborrachado e palmilha confortável.",
+    "preco": 229.9,
+    "estoque": 30,
+    "fornecedor_id": 5
+  },
+  {
+    "id": 17,
+    "nome": "Kit Limpeza Multiuso",
+    "descricao": "Kit com detergente, desinfetante e esponjas de limpeza.",
+    "preco": 44.9,
+    "estoque": 75,
+    "fornecedor_id": 2
+  },
+  {
+    "id": 18,
+    "nome": "Organizador Plástico",
+    "descricao": "Caixa organizadora plástica transparente de 20 litros.",
+    "preco": 64.9,
+    "estoque": 48,
+    "fornecedor_id": 2
+  },
+  {
+    "id": 19,
+    "nome": "Lâmpada LED 9W",
+    "descricao": "Lâmpada LED branca econômica com potência de 9 W.",
+    "preco": 12.9,
+    "estoque": 200,
+    "fornecedor_id": 2
+  },
+  {
+    "id": 20,
+    "nome": "Extensão Elétrica 5m",
+    "descricao": "Extensão elétrica com 3 tomadas e cabo de 5 metros.",
+    "preco": 49.9,
+    "estoque": 55,
+    "fornecedor_id": 2
+  }
+]
